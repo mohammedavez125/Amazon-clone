@@ -25,46 +25,46 @@ function Home() {
         <div className="home__row">
           <Product
             // title="IT STARTS WITH US"
-            title={info[0].title}
-            image={info[0].image}
-            price={info[0].price}
-            rating={info[0].rating}
+            title={info[0]?.title}
+            image={info[0]?.image}
+            price={info[0]?.price}
+            rating={info[0]?.rating}
           />
           <Product
-            title={info[1].title}
-            image={info[1].image}
-            price={info[1].price}
-            rating={info[1].rating}
-          />
-        </div>
-
-        <div className="home__row">
-          <Product
-            title={info[2].title}
-            image={info[2].image}
-            price={info[2].price}
-            rating={info[2].rating}
-          />
-          <Product
-            title={info[4].title}
-            image={info[4].image}
-            price={info[4].price}
-            rating={info[4].rating}
-          />
-          <Product
-            title={info[5].title}
-            image={info[5].image}
-            price={info[5].price}
-            rating={info[5].rating}
+            title={info[1]?.title}
+            image={info[1]?.image}
+            price={info[1]?.price}
+            rating={info[1]?.rating}
           />
         </div>
 
         <div className="home__row">
           <Product
-            title={info[3].title}
-            image={info[3].image}
-            price={info[3].price}
-            rating={info[3].rating}
+            title={info[2]?.title}
+            image={info[2]?.image}
+            price={info[2]?.price}
+            rating={info[2]?.rating}
+          />
+          <Product
+            title={info[4]?.title}
+            image={info[4]?.image}
+            price={info[4]?.price}
+            rating={info[4]?.rating}
+          />
+          <Product
+            title={info[5]?.title}
+            image={info[5]?.image}
+            price={info[5]?.price}
+            rating={info[5]?.rating}
+          />
+        </div>
+
+        <div className="home__row">
+          <Product
+            title={info[3]?.title}
+            image={info[3]?.image}
+            price={info[3]?.price}
+            rating={info[3]?.rating}
           />
         </div>
       </div>
